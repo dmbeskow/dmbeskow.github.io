@@ -536,7 +536,7 @@ A table is usually the input command for a barplot
 barplot(table(a))
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-37](/dmbeskow.github/2016-07-16-IntroToRLesson1/unnamed-chunk-37-1.png)
+![plot of chunk unnamed-chunk-37](https://dmbeskow.github.io/images/2016-07-16-IntroToRLesson1/unnamed-chunk-37-1.png)
 
 or a pieplot
 
