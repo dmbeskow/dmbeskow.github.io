@@ -546,7 +546,7 @@ or a pieplot
 pie(table(a))
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-38](/knitr-jekyll/figure/source/2016-07-16-IntroToRLesson1/unnamed-chunk-38-1.png)
+![plot of chunk unnamed-chunk-38](https://dmbeskow.github.io/images/2016-07-16-IntroToRLesson1/unnamed-chunk-38-1.png)
 
 We will talk more about plots and graphs next lesson.  
 
@@ -578,7 +578,7 @@ A two way table is also the basic input of a stacked barplot:
 barplot(table(a,b))
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-40](/knitr-jekyll/figure/source/2016-07-16-IntroToRLesson1/unnamed-chunk-40-1.png)
+![plot of chunk unnamed-chunk-40](https://dmbeskow.github.io/images/2016-07-16-IntroToRLesson1/unnamed-chunk-40-1.png)
 
 Note that the table command is very useful in exploring data.  Let's use it to explore the birth data.  If we wanted to quickly see the number of males and females in the data set, we could use the command
 
