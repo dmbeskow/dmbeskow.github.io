@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tutorials
-permalink: /tutorials/
+permalink: /tutorial/
 ---
 
 I host most of my research at the site below, but use this Github site to share code, particularly regarding various R Projects that I'm working on.  I also maintain an informal blog on this site to discuss various musings and experimentst that I've attempted with code. 
