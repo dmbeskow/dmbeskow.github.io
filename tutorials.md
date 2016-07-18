@@ -8,7 +8,7 @@ I host most of my research at the site below, but use this Github site to share 
 
 ### Publications
 
-David Beskow, Caitlin Rowe, Jed Lee, Marat Nugmanov, Ruben Vargas, "Data Fusion for Regionally Aligned Forces", Systems Conference (SysCon), 2015 9th Annual IEEE International
+**David Beskow, Caitlin Rowe, Jed Lee, Marat Nugmanov, Ruben Vargas**, *Data Fusion for Regionally Aligned Forces*, Systems Conference (SysCon), 2015 9th Annual IEEE International
 
 David Beskow, David Blum, Nathan Gustafson, Emily Kern, and Jessica Waggoner, "Data Collection, Fusion, and Visualization for Decision Making in Stability", Proceedings of the 2014 Industrial and Systems Engineering Research Conference
 
