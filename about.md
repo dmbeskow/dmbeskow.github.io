@@ -8,19 +8,19 @@ I host most of my research at the site below, but use this Github site to share 
 
 ### Publications
 
-David Beskow, Caitlin Rowe, Jed Lee, Marat Nugmanov, Ruben Vargas, "Data Fusion for Regionally Aligned Forces", Systems Conference (SysCon), 2015 9th Annual IEEE International
+**David Beskow, Caitlin Rowe, Jed Lee, Marat Nugmanov, Ruben Vargas**, *Data Fusion for Regionally Aligned Forces*, Systems Conference (SysCon), 2015 9th Annual IEEE International
 
-David Beskow, David Blum, Nathan Gustafson, Emily Kern, and Jessica Waggoner, "Data Collection, Fusion, and Visualization for Decision Making in Stability", Proceedings of the 2014 Industrial and Systems Engineering Research Conference
+**David Beskow, David Blum, Nathan Gustafson, Emily Kern, and Jessica Waggoner**, *Data Collection, Fusion, and Visualization for Decision Making in Stability*, Proceedings of the 2014 Industrial and Systems Engineering Research Conference
 
-David Beskow, Zachary Horovitz, Tyler Maeker, Marissa Malta, and Thomas Schafer, "Decision Support Tool for the Global Reaction Force Outload Process", Proceedings of the 2014 Industrial and Systems Engineering Research Conference
+**David Beskow, Zachary Horovitz, Tyler Maeker, Marissa Malta, and Thomas Schafer**, *Decision Support Tool for the Global Reaction Force Outload Process*, Proceedings of the 2014 Industrial and Systems Engineering Research Conference
 
-David Beskow and Daniel McCarthy, Installation Services Requirements Determination Analysis: Electrical Services (nominated for MORS Bartchi Award), 80th MORS Symposium Working Group 25
+**David Beskow and Daniel McCarthy**, *Installation Services Requirements Determination Analysis: Electrical Services* (nominated for MORS Bartchi Award), 80th MORS Symposium Working Group 25
 
-David Beskow and Lynn Whitaker, "Spatial and Temporal Analysis of Tactical Integrated Ground Reporting", Accepted for presentation at the Military Operations Research Society Stephen A. Tisdale Competition, (Monterey, California), May 2011
+**David Beskow and Lynn Whitaker**, *Spatial and Temporal Analysis of Tactical Integrated Ground Reporting*, Accepted for presentation at the Military Operations Research Society Stephen A. Tisdale Competition, (Monterey, California), May 2011
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Under Construction
 
 ### Contact me
 
