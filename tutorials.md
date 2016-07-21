@@ -4,5 +4,5 @@ title: Tutorials
 permalink: /tutorial/
 ---
 
-Under Construction....
+[Lesson 1](https://dmbeskow.github.io/_includes/Lesson1.html)
 
