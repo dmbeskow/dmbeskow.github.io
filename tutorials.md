@@ -16,3 +16,10 @@ I used the following tutorials to teach students how to conduct basic monte carl
 
 * [Monte Carlo Lesson 1](https://dmbeskow.github.io/html/MonteCarloR1.html)
 * [Monte Carlo Lesson 2](https://dmbeskow.github.io/html/MonteCarloR2.html)
+
+I've used the following tutorials to teach students how to conduct basic geospatial analysis and visualization in R:
+
+* [Geospatial Lesson 1](https://dmbeskow.github.io/html/geo1.html)
+* [Geospatial Lesson 2](https://dmbeskow.github.io/html/geo2.html)
+* [Geospatial Lesson 3](https://dmbeskow.github.io/html/geo3.html)
+* [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
