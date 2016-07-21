@@ -4,5 +4,5 @@ title: Tutorials
 permalink: /tutorial/
 ---
 
-[Lesson 1](https://dmbeskow.github.io/_includes/Lesson1.html)
+[Lesson 1](https://dmbeskow.github.io/html/Lesson1.html)
 
