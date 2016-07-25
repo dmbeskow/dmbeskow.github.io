@@ -303,7 +303,7 @@ Let's check our final product:
  35.89|  -82.83|Hot Springs    |28743  | 0.23
  42.36|  -71.06|Boston         |02109  | 0.51
 
-<table border=1>
+<table style="width:100%">
 <tr> <th>  </th> <th> lat </th> <th> lon </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> -33.87 </td> <td align="right"> 151.21 </td> </tr>
   <tr> <td align="right"> 2 </td> <td align="right"> 51.51 </td> <td align="right"> -0.13 </td> </tr>
@@ -313,7 +313,7 @@ Let's check our final product:
   <tr> <td align="right"> 6 </td> <td align="right"> -1.28 </td> <td align="right"> 36.82 </td> </tr>
   <tr> <td align="right"> 7 </td> <td align="right"> 52.52 </td> <td align="right"> 13.41 </td> </tr>
   <tr> <td align="right"> 8 </td> <td align="right"> -22.90 </td> <td align="right"> -43.21 </td> </tr>
-   </table>
+</table>
 
 <table style="width:100%">
   <caption>Monthly savings</caption>
