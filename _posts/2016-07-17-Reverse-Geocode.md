@@ -294,14 +294,14 @@ Let's check our final product:
 <!-- Sun Jul 24 23:40:22 2016 -->
 <table style="width:100%">
 <tr> <th>  </th> <th> lat </th> <th> lon </th> <th> city </th> <th> postal </th> <th> dist </th>  </tr>
-  <tr> <td align="right"> 1 </td> <td align="right"> 45.51 </td> <td align="right"> -122.69 </td> <td> Portland </td> <td> 97201 </td> <td align="right"> 0.45 </td> </tr>
-  <tr> <td align="right"> 2 </td> <td align="right"> 40.76 </td> <td align="right"> -111.89 </td> <td> Salt Lake City </td> <td> 84114 </td> <td align="right"> 0.42 </td> </tr>
-  <tr> <td align="right"> 3 </td> <td align="right"> 32.78 </td> <td align="right"> -96.81 </td> <td> Irving </td> <td> 75202 </td> <td align="right"> 0.04 </td> </tr>
-  <tr> <td align="right"> 4 </td> <td align="right"> 35.96 </td> <td align="right"> -83.92 </td> <td> Knoxville </td> <td> 37902 </td> <td align="right"> 0.21 </td> </tr>
-  <tr> <td align="right"> 5 </td> <td align="right"> 35.47 </td> <td align="right"> -97.52 </td> <td> Oklahoma City </td> <td> 73102 </td> <td align="right"> 0.55 </td> </tr>
-  <tr> <td align="right"> 6 </td> <td align="right"> 28.54 </td> <td align="right"> -81.38 </td> <td> Orlando </td> <td> 32801 </td> <td align="right"> 0.89 </td> </tr>
-  <tr> <td align="right"> 7 </td> <td align="right"> 35.89 </td> <td align="right"> -82.83 </td> <td> Hot Springs </td> <td> 28743 </td> <td align="right"> 0.23 </td> </tr>
-  <tr> <td align="right"> 8 </td> <td align="right"> 42.36 </td> <td align="right"> -71.06 </td> <td> Boston </td> <td> 02109 </td> <td align="right"> 0.51 </td> </tr>
+  <tr> <td align="center"> 1 </td> <td align="center"> 45.51 </td> <td align="center"> -122.69 </td> <td> Portland </td> <td> 97201 </td> <td align="center"> 0.45 </td> </tr>
+  <tr> <td align="center"> 2 </td> <td align="center"> 40.76 </td> <td align="center"> -111.89 </td> <td> Salt Lake City </td> <td> 84114 </td> <td align="center"> 0.42 </td> </tr>
+  <tr> <td align="center"> 3 </td> <td align="center"> 32.78 </td> <td align="center"> -96.81 </td> <td> Irving </td> <td> 75202 </td> <td align="center"> 0.04 </td> </tr>
+  <tr> <td align="center"> 4 </td> <td align="center"> 35.96 </td> <td align="center"> -83.92 </td> <td> Knoxville </td> <td> 37902 </td> <td align="center"> 0.21 </td> </tr>
+  <tr> <td align="center"> 5 </td> <td align="center"> 35.47 </td> <td align="center"> -97.52 </td> <td> Oklahoma City </td> <td> 73102 </td> <td align="center"> 0.55 </td> </tr>
+  <tr> <td align="center"> 6 </td> <td align="center"> 28.54 </td> <td align="center"> -81.38 </td> <td> Orlando </td> <td> 32801 </td> <td align="center"> 0.89 </td> </tr>
+  <tr> <td align="center"> 7 </td> <td align="center"> 35.89 </td> <td align="center"> -82.83 </td> <td> Hot Springs </td> <td> 28743 </td> <td align="center"> 0.23 </td> </tr>
+  <tr> <td align="center"> 8 </td> <td align="center"> 42.36 </td> <td align="center"> -71.06 </td> <td> Boston </td> <td> 02109 </td> <td align="center"> 0.51 </td> </tr>
    </table>
 
 
