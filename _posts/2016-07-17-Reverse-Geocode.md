@@ -296,7 +296,7 @@ Let's check our final product:
 {% endhighlight %}
 
 
-
+{table-plus:columnStyles=width:170px,width:170px,width:170px,width:170px,width:170px}
 ||   **latitude** |     **longitude** | **city**           | **postal code** | **distance**||
 |:---------|:----------:|:--------------:|:--------:|-------:|
 | 45.51| -122.69|Portland       |97201  | 0.45|
