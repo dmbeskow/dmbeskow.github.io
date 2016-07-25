@@ -291,22 +291,17 @@ us.cities$dist[i] <- mat[i,k]
 Let's check our final product:
 
 
-{% highlight text %}
-## Warning: package 'knitr' was built under R version 3.2.5
-{% endhighlight %}
 
-
-{table-plus:columnStyles=width:170px,width:170px,width:170px,width:170px,width:170px}
-||   **latitude** |     **longitude** | **city**           | **postal code** | **distance**||
-|:---------|:----------:|:--------------:|:--------:|-------:|
-| 45.51| -122.69|Portland       |97201  | 0.45|
-| 40.76| -111.89|Salt Lake City |84114  | 0.42|
-| 32.78|  -96.81|Irving         |75202  | 0.04|
-| 35.96|  -83.92|Knoxville      |37902  | 0.21|
-| 35.47|  -97.52|Oklahoma City  |73102  | 0.55|
-| 28.54|  -81.38|Orlando        |32801  | 0.89|
-| 35.89|  -82.83|Hot Springs    |28743  | 0.23|
-| 42.36|  -71.06|Boston         |02109  | 0.51|
+   **latitude** |     **longitude** | **city**           | **postal code** | **distance**
+:---------|:----------:|:--------------:|:--------:|-------:
+ 45.51| -122.69|Portland       |97201  | 0.45
+ 40.76| -111.89|Salt Lake City |84114  | 0.42
+ 32.78|  -96.81|Irving         |75202  | 0.04
+ 35.96|  -83.92|Knoxville      |37902  | 0.21
+ 35.47|  -97.52|Oklahoma City  |73102  | 0.55
+ 28.54|  -81.38|Orlando        |32801  | 0.89
+ 35.89|  -82.83|Hot Springs    |28743  | 0.23
+ 42.36|  -71.06|Boston         |02109  | 0.51
 
 
 
