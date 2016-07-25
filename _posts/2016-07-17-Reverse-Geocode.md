@@ -39,7 +39,7 @@ This is what our Level 1 shapefile looks like (remember that Level 1 Shapefiles 
 
 
 
-![alt text](https://dmbeskow.github.io/images/2016-07-17-Reverse-Geocode/world2.png)
+![alt text](https://dmbeskow.github.io/images/2016-07-17-Reverse-Geocode/world2.png  =800x)
 
 
 
