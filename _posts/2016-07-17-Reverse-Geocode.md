@@ -134,7 +134,7 @@ Below is our final data frame.
 
 <!-- html table generated in R 3.2.1 by xtable 1.8-2 package -->
 <!-- Sun Jul 24 23:38:23 2016 -->
-<table border=1>
+<table style="width:100%">
 <tr> <th>  </th> <th> lat </th> <th> lon </th> <th> Country </th> <th> level_1 </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> -33.87 </td> <td align="right"> 151.21 </td> <td> Australia </td> <td> New South Wales </td> </tr>
   <tr> <td align="right"> 2 </td> <td align="right"> 51.51 </td> <td align="right"> -0.13 </td> <td> U.K. of Great Britain and Northern Ireland </td> <td> England </td> </tr>
@@ -228,7 +228,7 @@ Now that this is done, we can print our new data frame to see how it worked.
 
 <!-- html table generated in R 3.2.1 by xtable 1.8-2 package -->
 <!-- Sun Jul 24 23:40:22 2016 -->
-<table border=1>
+<table style="width:100%">
 <tr> <th>  </th> <th> lat </th> <th> lon </th> <th> country </th> <th> city </th> <th> accent_city </th> <th> dist </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> -33.87 </td> <td align="right"> 151.21 </td> <td> au </td> <td> pyrmont </td> <td> Pyrmont </td> <td align="right"> 0.43 </td> </tr>
   <tr> <td align="right"> 2 </td> <td align="right"> 51.51 </td> <td align="right"> -0.13 </td> <td> gb </td> <td> charing cross </td> <td> Charing Cross </td> <td align="right"> 0.25 </td> </tr>
@@ -292,7 +292,7 @@ Let's check our final product:
 
 <!-- html table generated in R 3.2.1 by xtable 1.8-2 package -->
 <!-- Sun Jul 24 23:40:22 2016 -->
-<table border=1>
+<table style="width:100%">
 <tr> <th>  </th> <th> lat </th> <th> lon </th> <th> city </th> <th> postal </th> <th> dist </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 45.51 </td> <td align="right"> -122.69 </td> <td> Portland </td> <td> 97201 </td> <td align="right"> 0.45 </td> </tr>
   <tr> <td align="right"> 2 </td> <td align="right"> 40.76 </td> <td align="right"> -111.89 </td> <td> Salt Lake City </td> <td> 84114 </td> <td align="right"> 0.42 </td> </tr>
