@@ -58,7 +58,7 @@ Now let's see a picture of our cities plotted over our shapefile:
 
 
 
-![points on shapefile](world.png)
+![points on shapefile](https://dmbeskow.github.io/images/2016-07-17-Reverse-Geocode/world.png)
 
 Next, we need to convert the cities data frame to a Spatial Points Data Frame.  We start by creating a separate object called _cities.sp_, and then creating the Spatial Points Data Frame.
 
