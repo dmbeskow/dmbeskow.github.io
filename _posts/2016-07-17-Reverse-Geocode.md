@@ -315,3 +315,18 @@ Let's check our final product:
   <tr> <td align="right"> 8 </td> <td align="right"> -22.90 </td> <td align="right"> -43.21 </td> </tr>
    </table>
 
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
