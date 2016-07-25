@@ -144,7 +144,7 @@ Below is our final data frame.
   <tr> <td align="right"> 6 </td> <td align="right"> -1.28 </td> <td align="right"> 36.82 </td> <td> Kenya </td> <td> Nairobi </td> </tr>
   <tr> <td align="right"> 7 </td> <td align="right"> 52.52 </td> <td align="right"> 13.41 </td> <td> Germany </td> <td> Berlin </td> </tr>
   <tr> <td align="right"> 8 </td> <td align="right"> -22.90 </td> <td align="right"> -43.21 </td> <td> Brazil </td> <td> Rio De Janeiro </td> </tr>
-   </table>
+</table>
 
 Now we have spatial data added to our original data frame and we can easily bin data by _country_ or _province_.
 
@@ -238,7 +238,7 @@ Now that this is done, we can print our new data frame to see how it worked.
   <tr> <td align="right"> 6 </td> <td align="right"> -1.28 </td> <td align="right"> 36.82 </td> <td> ke </td> <td> nairoba </td> <td> Nairoba </td> <td align="right"> 0.00 </td> </tr>
   <tr> <td align="right"> 7 </td> <td align="right"> 52.52 </td> <td align="right"> 13.41 </td> <td> de </td> <td> berlin </td> <td> Berlin </td> <td align="right"> 0.74 </td> </tr>
   <tr> <td align="right"> 8 </td> <td align="right"> -22.90 </td> <td align="right"> -43.21 </td> <td> br </td> <td> praia formosa </td> <td> Praia Formosa </td> <td align="right"> 0.16 </td> </tr>
-   </table>
+</table>
 
 
 
