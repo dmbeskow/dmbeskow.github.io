@@ -303,5 +303,15 @@ Let's check our final product:
  35.89|  -82.83|Hot Springs    |28743  | 0.23
  42.36|  -71.06|Boston         |02109  | 0.51
 
-
+<table border=1>
+<tr> <th>  </th> <th> lat </th> <th> lon </th>  </tr>
+  <tr> <td align="right"> 1 </td> <td align="right"> -33.87 </td> <td align="right"> 151.21 </td> </tr>
+  <tr> <td align="right"> 2 </td> <td align="right"> 51.51 </td> <td align="right"> -0.13 </td> </tr>
+  <tr> <td align="right"> 3 </td> <td align="right"> 55.75 </td> <td align="right"> 37.50 </td> </tr>
+  <tr> <td align="right"> 4 </td> <td align="right"> 39.91 </td> <td align="right"> 116.40 </td> </tr>
+  <tr> <td align="right"> 5 </td> <td align="right"> 35.47 </td> <td align="right"> -97.52 </td> </tr>
+  <tr> <td align="right"> 6 </td> <td align="right"> -1.28 </td> <td align="right"> 36.82 </td> </tr>
+  <tr> <td align="right"> 7 </td> <td align="right"> 52.52 </td> <td align="right"> 13.41 </td> </tr>
+  <tr> <td align="right"> 8 </td> <td align="right"> -22.90 </td> <td align="right"> -43.21 </td> </tr>
+   </table>
 
