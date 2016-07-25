@@ -297,7 +297,7 @@ Let's check our final product:
 
 
 
-|   lat |     lon | city           | postal | dist|
+|   **latitude** |     longitude | city           | postal code | distance|
 |:---------|:----------|--------------:|--------:|-------|
 | 45.51| -122.69|Portland       |97201  | 0.45|
 | 40.76| -111.89|Salt Lake City |84114  | 0.42|
