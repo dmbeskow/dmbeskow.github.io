@@ -39,7 +39,7 @@ This is what our Level 1 shapefile looks like (remember that Level 1 Shapefiles 
 
 
 
-![alt text](world2.png)
+![alt text](https://dmbeskow.github.io/images/2016-07-17-Reverse-Geocode/world2.png)
 
 
 
@@ -154,7 +154,7 @@ Now we have spatial data added to our original data frame and we can easily bin 
 
 The next method I'll demonstrate is to find the nearest world city.  There are several data bases available online for doing this.  Open Geo Code maintains a database at the following [link](http://www.opengeocode.org/download.php#cities).  This database is maintaned by the National Geospatial Agency (NGA) and is fairly comprehensive.  It does contain multiple entries for each city (usually to capture various spellings of the same city).  My biggest complaint of this data set is that it does not contain any cities for the US or China.  While I can sort of understand not having any US cities, I have no idea why it does not contain Chinese cities.  
 
-![alt text](worldcities.png)
+![alt text](https://dmbeskow.github.io/images/2016-07-17-Reverse-Geocode/worldcities.png)
 
 The other data set that I've used before is from Maxmind [link](http://dev.maxmind.com/geoip/legacy/geolite/).  This data set is not maintained as much as the NGA data set, but does contain all countries (to include US cities).  This is a fairly large dataset, containing over 3 million entries.
 
