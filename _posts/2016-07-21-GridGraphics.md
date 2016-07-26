@@ -35,7 +35,7 @@ grid.lines(x,y)
 popViewport(1)
 ```
 
-![plot of chunk unnamed-chunk-1](https://dmbeskow.github.io/images/2016-07-21-GridGraphics/grid-1.png) 
+![plot of chunk unnamed-chunk-1](https://dmbeskow.github.io/images/2016-07-21-GridGraphics/unnamed-chunk-1-1.png) 
 
 I found that this concept could be very powerful when conducted in a loop.  I was trying to create a chart of some data that looked a bit like a periodic table.  It wanted the most recent number in the center of each square, with the change from last quarter in the upper right hand quarter, and the last four quarter sparkline at the bottom of the chart.  Additionally, the columns would be colored based on a rate, with _red_ being a high rate and _green_ being a low rate.  An example of this is given below with randomly generated numbers:
 
