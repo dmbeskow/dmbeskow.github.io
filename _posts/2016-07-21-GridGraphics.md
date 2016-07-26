@@ -1,6 +1,9 @@
+
 ---
+layout: post
 title: "Learning to use the R Grid Package"
-output: html_document
+categories: [R]
+tags: [spatial]
 ---
 
 I've wanted to spend some time to learn how to use the grid graphics pattern for a while.  A recent assignment at work gave me the opportunity to do so.  I found a great tutorial by Zhou and Braun entitled [Fun with the R Grid Package](http://www.amstat.org/publications/jse/v18n3/zhou.pdf).  The grid package allows you to build up a visualization from the ground up.  By using viewports, the user can define any piece of the canvas in order to build a small visualization.  The power of these visualization comes together when many of these smaller visualizations are put together.  
