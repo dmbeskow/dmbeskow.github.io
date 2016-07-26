@@ -9,7 +9,7 @@ I've wanted to spend some time to learn how to use the grid graphics pattern for
 
 Below is a small example of how this works:
 
-```r
+{% highlight r %}
 library(grid)
 grid.newpage()
 grid.rect()
@@ -35,7 +35,7 @@ grid.rect(gp=gpar(fill="green",col="black"))
 x<-1:4/5; y<-runif(4)
 grid.lines(x,y)
 popViewport(1)
-```
+{% endhighlight %}
 
 ![plot of chunk unnamed-chunk-1](https://dmbeskow.github.io/images/2016-07-21-GridGraphics/unnamed-chunk-1-1.png) 
 
@@ -43,7 +43,7 @@ I found that this concept could be very powerful when conducted in a loop.  I wa
 
 
 
-```r
+{% highlight r %}
 ###################################################
 library(grid)
 a<-matrix(round(runif(100,0,16)),nrow=10)
@@ -85,7 +85,7 @@ popViewport(1)
 pushViewport(viewport(x=0.3,y=0.975,width=0.3,height=0.05))
 grid.text("Example Data Table with Grid Package", 0.5, 0.5,gp=gpar(cex=1))
 popViewport(1)
-```
+{% endhighlight %}
 
 ![plot of chunk grid](https://dmbeskow.github.io/images/2016-07-21-GridGraphics/grid-1.png) 
 
