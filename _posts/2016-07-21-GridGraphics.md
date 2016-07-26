@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Learning to use the R Grid Package"
