@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Three Methods for Reverse Geocode"
+title:  "Four Methods for Reverse Geocode"
 categories: [R]
 tags: [spatial]
 ---
@@ -23,10 +23,12 @@ First, let's establish some random cities to use as an example:
 {% highlight r %}
 ## Choose random cities to test our algorithms
 cities <- data.frame(
-  lat=c(-33.86785 , 51.50726 , 55.75000 , 39.90750 , 35.46756 , -1.28333 , 52.52330 ,-22.90278),
-  lon=c(151.20732 , -0.1278328 , 37.5 ,116.39723 ,-97.51643  ,36.8166700 , 13.41377, -43.2075)
+  lat=c(-33.86785,51.50726,55.75,39.90750,35.46756,-1.28333,52.52330,-22.90278),
+  lon=c(151.20732,-0.1278328,37.5,116.39723,-97.51643,36.81667,13.41377,-43.2075)
 )
 {% endhighlight %}
+
+
 
 ## Extract Data from Shapefile
 
