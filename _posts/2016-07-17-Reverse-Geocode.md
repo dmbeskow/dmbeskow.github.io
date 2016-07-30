@@ -5,13 +5,28 @@ categories: [R]
 tags: [spatial]
 ---
 
-In summary, this post will demonstrate three methods for reverse geocoding.  These three methods are summarized below:
+In summary, this post will demonstrate four methods for reverse geocoding.  These three methods are summarized below:
 
-1. Extract country and state/province data from shapefile
-2. Identify closest city 
-3. Identify closest zip code (US Only)
+1. [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) reverse geocoding function
+2. Extract country and state/province data from shapefile
+3. Identify closest city 
+4. Identify closest zip code (US Only)
 
-In my years of munging geospatial data, I've run into a number of instances when I have a data set with a lat-lon combination, but no other spatial reference (i.e. Country, State/Province, City, etc.).  If you have a data set with latitude and longitude but not _Country_, _State/Province_, or _city_, than I'd recommend using one of the methods below (or a combination of them) to add a _Country_, _State/Province_, and/or _City_ field to your data.  You can think of this as a type of reverse geocode.  If you have US Only spatial data, I'd recommend using the zip code method below.  If you have international data, and require _Country_ and _State/Province_, use the shapefile data extraction method below.  If you require _Country_ and _City_ data, use the world city data in the second method below.  If you require _Country_, _State/Province_, and _City_ data, you will have to use a combination of both the shapefile data extraction and international city data methods.  
+In my years of munging geospatial data, I've run into a number of instances when I have a data set with a lat-lon combination, but no other spatial reference (i.e. Country, State/Province, City, etc.).  If you have a data set with latitude and longitude but not _Country_, _State/Province_, or _city_, than I'd recommend using one of the methods below (or a combination of them) to add a _Country_, _State/Province_, and/or _City_ field to your data.  The easiest of these to use is the reverse geocoding function from the [ggmap package](https://cran.r-project.org/web/packages/ggmap/index.html). This is very easy to use and fairly accurate.  However, it is rate limited at 2500 reverse geocodes daily, and can take up to 45 minutes to reverse geocode 2500 lat/lon combinations (depending on internet connection).  Additionally, you will not be able to use this function from an air-gapped network or from an austere location with limited internet connectivity.  The last three methods work must faster, are not rate limited, and can work in an air-gapped network (or otherwise austere environment). In these cases, if you have US Only spatial data, I'd recommend using the zip code method below.  If you have international data, and require _Country_ and _State/Province_, use the shapefile data extraction method.  If you require _Country_ and _City_ data, use the world city data in the second method.  If you require _Country_, _State/Province_, and _City_ data, you will have to use a combination of both the shapefile data extraction and international city data methods.  
+
+## Using the *revgeocode* function
+
+The [revgeocode](https://cran.r-project.org/web/packages/ggmap/ggmap.pdf) method from the [ggmap package](https://cran.r-project.org/web/packages/ggmap/index.html) package is intuitive and easy to use.  An example is given below:
+
+First, let's establish some random cities to use as an example:
+
+{% highlight r %}
+## Choose random cities to test our algorithms
+cities <- data.frame(
+  lat=c(-33.86785 , 51.50726 , 55.75000 , 39.90750 , 35.46756 , -1.28333 , 52.52330 ,-22.90278),
+  lon=c(151.20732 , -0.1278328 , 37.5 ,116.39723 ,-97.51643  ,36.8166700 , 13.41377, -43.2075)
+)
+{% endhighlight %}
 
 ## Extract Data from Shapefile
 
