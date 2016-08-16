@@ -17,7 +17,7 @@ Introducing Yahoo Flickr Creative Commons 100M Images/Video Data
 -   Available on AWS. See [Yahoo
     Link](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67)
 
-<img src="aus_flickr_collage.jpg"  height="300px" />
+<img src="https://dmbeskow.github.io/images/2016-08-16-FlickrData/aus_flickr_collage.jpg"  height="300px" />
 
 Plotting point density of Flickr Data in Australia
 --------------------------------------------------
@@ -33,8 +33,8 @@ Code for creating Point Density Plot of Australia:
 <table>
 <tbody>
 <tr class="odd">
-<td align="left"><img src="aus_heat.png" alt="" /></td>
-<td align="left"><img src="sydney_heat.png" alt="" /></td>
+<td align="left"><img src="https://dmbeskow.github.io/images/2016-08-16-FlickrData/aus_heat.png" alt="" /></td>
+<td align="left"><img src="https://dmbeskow.github.io/images/2016-08-16-FlickrData/sydney_heat.png" alt="" /></td>
 </tr>
 <tr class="even">
 <td align="left">Point Density Plot of Australia</td>
@@ -47,7 +47,7 @@ Introducing Interactive Maps with Leaflet
 -----------------------------------------
 
 <center>
-<iframe src="file://///BELV05UCYBERH/ARCYBER_Home/david.m.beskow/Documents/cep/geospatial/leaf_heat.html" width="900" height="600">
+<iframe src="https://dmbeskow.github.io/html/leaf_heat.html" width="900" height="600">
 </iframe>
 </center>
     leaflet(data=sydney) %>% 
