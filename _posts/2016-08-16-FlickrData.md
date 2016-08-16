@@ -5,8 +5,11 @@ categories: [R]
 tags: [spatial]
 ---
 
+In this blog I will explore some geospatial analysis and visualization using the Flickr Data found in the Creative Commons 100M Images/Video.
+
 Introducing Yahoo Flickr Creative Commons 100M Images/Video Data
 ----------------------------------------------------------------
+
 
 -   100 Million media objects (picture and Video)
 -   Contains objects from 2004 (Flickr inception) through 2014
