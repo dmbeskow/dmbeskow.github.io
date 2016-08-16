@@ -85,8 +85,8 @@ Can I understand movement with this data?
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><img src="tracks3.png" alt="" /></td>
-<td align="left"><img src="lines.png" alt="" /></td>
+<td align="left"><img src="https://dmbeskow.github.io/images/2016-08-16-FlickrData/tracks3.png" alt="" /></td>
+<td align="left"><img src="https://dmbeskow.github.io/images/2016-08-16-FlickrData/lines.png" alt="" /></td>
 </tr>
 </tbody>
 </table>
