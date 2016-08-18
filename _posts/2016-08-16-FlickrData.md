@@ -5,11 +5,11 @@ categories: [R]
 tags: [spatial]
 ---
 
-In this blog I will explore some geospatial analysis and visualization using the Flickr Data found in the Creative Commons 100M Images/Video.
+In this blog I will explore some geospatial analysis and visualization using the Flickr Data found in the Creative Commons 100M Images/Video.  In particular I will demonstrate the Paul Evangelista's [Point Density](https://cran.r-project.org/web/packages/pointdensityP/index.html) plotting package as well as the [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) interactive map package.  I originally created this as part of an RStudio Presentation that I presented as part of the Army's Data Science Center of Education (DSCOE).  I've extracted this part of it for this blog post.
 
 Introducing Yahoo Flickr Creative Commons 100M Images/Video Data
 ----------------------------------------------------------------
-
+The Yahoo Flickr Creative Commons 100M Data Set is a large dataset that was introduced to the computer vision and multimedia research community.  Is is a great data set to conduct research on photo data, video data, or just big data in general.  Below are some of the dataset attributes:
 
 -   100 Million media objects (picture and Video)
 -   Contains objects from 2004 (Flickr inception) through 2014
@@ -24,6 +24,8 @@ Introducing Yahoo Flickr Creative Commons 100M Images/Video Data
 
 Plotting point density of Flickr Data in Australia
 --------------------------------------------------
+
+We will start by illustrating how to use Paul Evangelista's [Point Density](https://cran.r-project.org/web/packages/pointdensityP/index.html) algorithm to generate a density map of the data in Australia. Paul created this algorithm in perl to assist with point data for the Department of Defense, and I assisted him in translating it to the R Programming Language.  I will go into more depth on this algorithm in a separate blog post.  I illustrate it's use below with the Australia Flickr Data:
 
 Code for creating Point Density Plot of Australia:
 
@@ -48,6 +50,8 @@ Code for creating Point Density Plot of Australia:
 
 Introducing Interactive Maps with Leaflet
 -----------------------------------------
+
+
 
 <center>
 <iframe src="https://dmbeskow.github.io/html/leaf_heat.html" width="900" height="600">
