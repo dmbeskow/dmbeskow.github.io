@@ -5,7 +5,7 @@ categories: [R]
 tags: [spatial]
 ---
 
-In this blog I will explore some geospatial analysis and visualization using the Flickr Data found in the Creative Commons 100M Images/Video.  In particular I will demonstrate the Paul Evangelista's [Point Density](https://cran.r-project.org/web/packages/pointdensityP/index.html) plotting package as well as the [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) interactive map package.  I originally created this as part of an RStudio Presentation that I presented as part of the Army's Data Science Center of Education (DSCOE).  I've extracted this part of it for this blog post.
+In this blog I will explore some geospatial analysis and visualization using the Flickr Data found in the Creative Commons 100M Images/Video.  In particular I will demonstrate Paul Evangelista's [Point Density](https://cran.r-project.org/web/packages/pointdensityP/index.html) plotting package as well as the [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) interactive map package.  I originally created this as part of an RStudio Presentation that I presented as part of the Army's Data Science Center of Education (DSCOE).  I've extracted this part of it for this blog post.
 
 Introducing Yahoo Flickr Creative Commons 100M Images/Video Data
 ----------------------------------------------------------------
@@ -51,7 +51,7 @@ Code for creating Point Density Plot of Australia:
 Introducing Interactive Maps with Leaflet
 -----------------------------------------
 
-
+The [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) package provides a great way to build interactive maps.  These maps can be embedded into an html document (like on this website) or built into a [Shiny](http://shiny.rstudio.com) application
 
 <center>
 <iframe src="https://dmbeskow.github.io/html/leaf_heat.html" width="900" height="600">
