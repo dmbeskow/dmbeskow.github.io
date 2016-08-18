@@ -51,7 +51,7 @@ Code for creating Point Density Plot of Australia:
 Introducing Interactive Maps with Leaflet
 -----------------------------------------
 
-The [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) package provides a great way to build interactive maps.  These maps can be embedded into an html document (like on this website) or built into a [Shiny](http://shiny.rstudio.com) application
+The [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) package provides a great way to build interactive maps.  These maps can be embedded into an html document (like on this website) or built into a [Shiny](http://shiny.rstudio.com) application.  leaflet interactive geospatial graphics are very customizable, and can handle 50-100K points before slowing down.  Below is a heatmap of the Sydney Flickr Data using the Point Density output.  The code below is the basic and simplest command to generate a leaflet map.
 
 <center>
 <iframe src="https://dmbeskow.github.io/html/leaf_heat.html" width="900" height="600">
@@ -64,11 +64,15 @@ The [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) packag
 Answering questions with data
 -----------------------------
 
+Now lets start seeing what kind of questions we could ask and answer with the Flickr Data:
+
 -   Can I understand events with this data?
 -   Can I understand movement with this data?
 
 Can I understand movement with this data?
 -----------------------------------------
+
+For this blog, let's take a look at understandning movement with the Flickr Data.  Oftentime these photos are created by tourists who are taking multiple pictures.  Given that a large majority of photographs are generally taken while walking (as opposed to taken through the window of a car), we can assume some of these series of pictures are captured by a walking tourist.  If we link pictures that were taken in close temporal proximity by the same photographer, then we can build "tracks" of where these photographers moved.  By putting all of these tracks together, we can gain an understanding of movement in a city (in this case, Sydney).  To accomplish this, I create a subset of photos shot by a single photographer, order by time, establish break points when the difference in tims is greater than 8 minutes, establish group labels, and then visualize with ggmap. The main portion of the code as well as the visualization are provided below.
 
     photographers<-unique(sydney$V2)              #ID photographers
     final<-list()                                 #Create OJB to store results
