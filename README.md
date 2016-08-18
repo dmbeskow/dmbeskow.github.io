@@ -2,7 +2,7 @@
 
 # Analytic musing and munging
 
-I use this blog to record and share some R Programming ideas.  
+I use this blog to record and share some R Programming ideas.  I created this with a modified Jekyll Now blog template.  The original ReadMe file is contained below.  
 
 # Jekyll Now
 
