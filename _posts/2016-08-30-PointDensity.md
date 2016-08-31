@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "Point Density Algorithm"
+categories: [R]
+tags: [spatial]
+---
 
 A little while back I had the opportunity to help Paul Evangelista
 convert his point density algorithm from perl to R. This is a novel
