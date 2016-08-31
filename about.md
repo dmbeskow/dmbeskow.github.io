@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I host most of my research at the site below, but use this Github site to share code, particularly regarding various R Projects that I'm working on.  I also maintain an informal blog on this site to discuss various musings and experiments that I've attempted with code. 
+I host most of my research at the [http://data-analytics.net/](http://data-analytics.net), but use this Github site to share code, particularly regarding various R Projects that I'm working on.  I also maintain an informal blog on this site to discuss various musings and experiments that I've attempted with code. 
 
 ### Publications
 
