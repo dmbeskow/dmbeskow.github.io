@@ -45,7 +45,6 @@ Here's how apply the *pointdentiy* algorithm against this data set. In
 this case, we've found that a grid\_size of 1 km and a radius of 2 km is
 appropriate.
 
-\vspace{12pt}
 Here's what *Arigon Density Data* looks like now:
 
     head(Arigon_density)
@@ -68,7 +67,8 @@ Here's what *Arigon Density Data* looks like now:
                           data = Arigon_density) + 
               scale_colour_gradient(low = "green", high = "red") 
 
-![](arigon.png)
+
+![arigon](https://dmbeskow.github.io/images/2016-08-30PointDensity/arigon.png) 
 
 Example with Crime Data in Houston
 ----------------------------------
@@ -92,7 +92,7 @@ pointdensityP package.
                  data = H_crime) + 
       scale_colour_gradient(low = "green", high = "red")
 
-![](houston.png)
+![houston](https://dmbeskow.github.io/images/2016-08-30PointDensity/houston.png) 
 
 You can also see how I used this algorithm to visualize Flickr data at
 this [blog](https://dmbeskow.github.io/FlickrData/)
