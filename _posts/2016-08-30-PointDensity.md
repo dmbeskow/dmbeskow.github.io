@@ -96,3 +96,118 @@ pointdensityP package.
 
 You can also see how I used this algorithm to visualize Flickr data at
 this [blog](https://dmbeskow.github.io/FlickrData/)
+
+The full algorithm is given below:
+
+    pointdensity <- function (df, lat_col, lon_col, date_col = NULL, grid_size, radius) {
+        grid_size <- round(grid_size/111.2, digits = 3)
+        rad_km <- radius
+        rad_dg <- rad_km/111.2
+        rad_steps <- round(rad_dg/grid_size)
+        rad_km <- rad_steps * grid_size * 111.2
+        cat("\nThe radius was adjusted to ", rad_km, "km in order to accomodate the grid size\n\n")
+        cat("algorithm grid step radius is ", rad_steps, "\n\n")
+        radius <- rad_steps
+        h <- new.env(hash = TRUE)
+        avg_date <- new.env(hash = TRUE)
+        bh <- new.env(hash = TRUE)
+        b_date <- new.env(hash = TRUE)
+        lat_data <- df[, lat_col]
+        lat <- lat_data * (1/grid_size)
+        lat <- round(lat, 0)
+        lat <- lat * (grid_size)
+        lon_data <- df[, lon_col]
+        lon <- lon_data * (1/grid_size)
+        lon <- round(lon, 0)
+        lon <- lon * (grid_size)
+        if (is.null(date_col)) {
+            date <- rep(0, length(lon))
+        }
+        if (!is.null(date_col)) {
+            date <- as.Date(df[, date_col])
+            date <- as.numeric(date)
+        }
+        key.vec <- paste(lat, lon, sep = "-")
+        data_length <- length(lat)
+        ulat <- c()
+        ulon <- c()
+        cat("binning data...\n\n")
+        pb <- txtProgressBar(title = "point density calculation progress", 
+            label = "0% done", min = 0, max = 100, initial = 0, style = 3)
+        for (i in 1:data_length) {
+            key <- paste(lat[i], lon[i], sep = "-")
+            if (is.null(h[[key]])) {
+                bh[[key]] = 1
+                h[[key]] = 1
+                b_date[[key]] = date[i]
+                avg_date[[key]] = b_date[[key]]
+                ulat <- c(ulat, lat[i])
+                ulon <- c(ulon, lon[i])
+            }
+            else {
+                bh[[key]] <- bh[[key]] + 1
+                h[[key]] <- bh[[key]]
+                b_date[[key]] = b_date[[key]] + date[i]
+                avg_date[[key]] = b_date[[key]]
+            }
+            setTxtProgressBar(pb, i/(data_length) * 100, label = info)
+        }
+        cat("\n", "Data length is ", data_length, "; reduced to ", 
+            length(ulat), "bins. Density calculation starting.\n\n")
+        lat <- ulat
+        lon <- ulon
+        pb <- txtProgressBar(title = "point density calculation progress", 
+            label = "0% done", min = 0, max = 100, initial = 0, style = 3)
+        counter <- 0
+        data_length <- length(lat)
+        pb2 <- txtProgressBar(title = "point density calculation progress", 
+            label = "0% done", min = 0, max = 100, initial = 0, style = 3)
+        for (i in 1:data_length) {
+            counter <- counter + 1
+            if (counter > 99) {
+                flush.console()
+                counter <- 0
+            }
+            ukey <- paste(lat[i], lon[i], sep = "-")
+            lat.vec <- seq(lat[i] - radius * grid_size, lat[i] + 
+                radius * grid_size, grid_size)
+            for (lat.temp in lat.vec) {
+                t <- sqrt(round(((radius * grid_size)^2 - (lat.temp - 
+                    lat[i])^2), 8))
+                t <- t/cos(lat.temp * 2 * pi/360)
+                t <- t/grid_size
+                t <- round(t, 0)
+                t <- t * grid_size
+                lon.vec <- seq(lon[i] - t, lon[i] + t, grid_size)
+                for (lon.temp in lon.vec) {
+                    key <- paste(lat.temp, lon.temp, sep = "-")
+                    if (is.null(h[[key]])) {
+                      h[[key]] = bh[[ukey]]
+                      avg_date[[key]] = b_date[[ukey]]
+                    }
+                    else {
+                      if (key != ukey) {
+                        h[[key]] <- h[[key]] + bh[[ukey]]
+                        avg_date[[key]] = avg_date[[key]] + b_date[[ukey]]
+                      }
+                    }
+                }
+            }
+            info <- sprintf("%d%% done", round((i/data_length) * 
+                100))
+            setTxtProgressBar(pb2, i/(data_length) * 100, label = info)
+        }
+        close(pb)
+        count_val <- rep(0, length(key.vec))
+        avg_date_val <- rep(0, length(key.vec))
+        for (i in 1:length(key.vec)) {
+            count_val[i] <- h[[key.vec[i]]]
+            avg_date_val[i] <- avg_date[[key.vec[i]]]/count_val[i]
+            count_val[i] <- count_val[i]/(pi * rad_km^2)
+        }
+        final <- data.frame(lat = lat_data, lon = lon_data, count = count_val, 
+            dateavg = avg_date_val)
+        final <- final[order(final$count), ]
+        return(final)
+        cat("done...\n\n")
+    }
