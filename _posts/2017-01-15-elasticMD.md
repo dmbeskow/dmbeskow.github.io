@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building an Elasticsearch, Logstash, and Kibana (ELK) Stack in AWS"
+title:  "Building an ELK Stack in AWS"
 categories: [R]
 tags: [aws]
 ---
@@ -13,9 +13,6 @@ service uses an older version of elasticsearch. I preferred to build it
 myself from the ground up so that I could customize the configuration to
 my needs. This tutorial is the result of hours of time on Google
 stitching together numerous blogs on the subject of ELK stacks.
-
-Summary
--------
 
 As the size of data in our world continues to grow, folks will
 increasingly have to deal with data that that doesn't fit into memory (a
@@ -56,7 +53,7 @@ the R/RStudio AMI that Louis Aslett maintains) because the RStudio
 webserver connection will impact the useability of the Kibana Dashboard.
 Instead, choose a basic Ubuntu Server AMI as seen below:
 
-![**Figure 1:** Choose Ubuntu Server 16.04](https://dmbeskow.github.io/images/2017-01-05-elastic/amazoneAMI.png)
+![test](https://dmbeskow.github.io/images/2017-01-05-elastic/amazoneAMI.png)
 
 After choosing this, continue through the following steps:
 
