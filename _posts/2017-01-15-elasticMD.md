@@ -2,7 +2,7 @@
 layout: post
 title:  "Building an Elasticsearch, Logstash, and Kibana (ELK) Stack in AWS"
 categories: [R]
-tags: [aws, cloud, elk]
+tags: [aws]
 ---
 
 This blog is meant to walk someone through setting up an ELK stack in
@@ -56,7 +56,7 @@ the R/RStudio AMI that Louis Aslett maintains) because the RStudio
 webserver connection will impact the useability of the Kibana Dashboard.
 Instead, choose a basic Ubuntu Server AMI as seen below:
 
-![**Figure 1:** Choose Ubuntu Server 16.04](https://dmbeskow.github.io/images/elastic/amazoneAMI.png)
+![**Figure 1:** Choose Ubuntu Server 16.04](https://dmbeskow.github.io/images/2017-01-05-elastic/amazoneAMI.png)
 
 After choosing this, continue through the following steps:
 
@@ -70,7 +70,7 @@ After choosing this, continue through the following steps:
 5.  Make sure you create and select a key pair (see below) in order to
     later connect to your node through SSH protocol
 
-![**Figure 2:** Ensure you select a key pair](https://dmbeskow.github.io/images/elastic/key_pair.png)
+![**Figure 2:** Ensure you select a key pair](https://dmbeskow.github.io/images/2017-01-05-elastic/key_pair.png)
 
 As a side note, to save money ensure you power off you nodes when not in
 use. As you can see from this blog it isn't necessarily easy to set up
@@ -234,7 +234,7 @@ in a browser. You should be prompted for the username and password that
 you used above. After entering this, you should get a screen that looks
 like:
 
-![**Figure 3:** Kibana Landing Page](https://dmbeskow.github.io/images/elastic/kibana.png)
+![**Figure 3:** Kibana Landing Page](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana.png)
 
 If you run into any problems, below are several commands that I found
 helpful:
