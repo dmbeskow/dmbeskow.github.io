@@ -332,7 +332,7 @@ and the below Kibana dashboard has been very responsive (I usually wait
 5 seconds for queries, compared to 10 minutes with Sqlite).
 
 ![**Figure 4:** Kibana Dashboard for Twitter...Query and Visualize 20M
-Tweets](https://dmbeskow.github.io/images/elastic/kibana2.PNG)
+Tweets](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana2.PNG)
 
 Finally, here's a couple of commands that are helpful:
 
