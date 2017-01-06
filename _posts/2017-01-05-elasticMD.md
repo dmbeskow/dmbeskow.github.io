@@ -1,30 +1,12 @@
----
-layout: post
-title:  "Building an ELK Stack in AWS"
-categories: [R]
-tags: [aws]
----
-
-This blog is meant to walk someone through setting up an ELK stack in
-AWS. I have recently set up and extensively used an ELK stack in AWS in
-order to query 20M+ social media records and serve them up in a Kibana
-Dashboard. While AWS does offer *Amazon Elastic Search Sevice*, this
-service uses an older version of elasticsearch. I preferred to build it
-myself from the ground up so that I could customize the configuration to
-my needs. This tutorial is the result of hours of time on Google
-stitching together numerous blogs on the subject of ELK stacks.
-
-
-
-As the size of data in our world continues to grow, folks will
-increasingly have to deal with data that that doesn't fit into memory (a
-constraining factor for those using R/Python). While one solution is to
-buy more RAM (which is now easier than ever in cloud services like
-Amazon Web Services and Azure), this is many times not feasible. In
-these cases, we need a storage solution to throw our data into and from
-which we can easily query. This query may be for traditional analysis in
-R/Python or it may be a query that feeds a Shiny application. Below are
-some solutions that I've used/explored:
+As the size of data in our world continues to grow, we will increasingly
+have to deal with data that that doesn't fit into memory (a constraining
+factor for those using R/Python). While one solution is to buy more RAM
+(which is now easier than ever in cloud services like Amazon Web
+Services and Azure), this is many times not feasible. In these cases, we
+need a storage solution to throw our data into and from which we can
+easily query. This query may be for traditional analysis in R/Python or
+it may be a query that feeds a Shiny application. Below are some
+solutions that I've used/explored:
 
 1.  SQLite (easy to set up and query with SQL commands, but some queries
     can take a while)
@@ -42,7 +24,15 @@ some solutions that I've used/explored:
     set it up on your laptop or single AWS node to query GBs of data, or
     you can set it up on hundreds of servers to query Petabytes of data.
 
-Note that this tutorial assumes that you have a basic knowledge of using AWS
+This blog is meant to walk an analyst through setting up an ELK stack in
+AWS. I have recently set up and extensively used an ELK stack in AWS in
+order to query 20M+ social media records and serve them up in a Kibana
+Dashboard. While AWS does offer *Amazon Elastic Search Sevice*, this
+service uses an older version of elasticsearch. I preferred to build it
+myself from the ground up so that I could customize the configuration to
+my needs. This tutorial is the result of hours of time on Google
+stitching together numerous blogs on the subject of ELK stacks. Note
+that this tutorial assumes that you have a basic knowledge of using AWS
 and the Linux terminal (for Linux basics, see Paul Gellerman's DSCOE
 blog
 [here](https://dscoe.army.mil/index.php/blog/linux-basics-connecting-to-rstudio/))
@@ -55,7 +45,8 @@ the R/RStudio AMI that Louis Aslett maintains) because the RStudio
 webserver connection will impact the useability of the Kibana Dashboard.
 Instead, choose a basic Ubuntu Server AMI as seen below:
 
-![test](https://dmbeskow.github.io/images/2017-01-05-elastic/amazoneAMI.PNG)
+![**Figure 1:** Choose Ubuntu Server
+16.04](https://dmbeskow.github.io/images/2017-01-05-elastic/amazoneAMI.png)
 
 After choosing this, continue through the following steps:
 
@@ -69,7 +60,8 @@ After choosing this, continue through the following steps:
 5.  Make sure you create and select a key pair (see below) in order to
     later connect to your node through SSH protocol
 
-![**Figure 2:** Ensure you select a key pair](https://dmbeskow.github.io/images/2017-01-05-elastic/key_pair.PNG)
+![**Figure 2:** Ensure you select a key
+pair](https://dmbeskow.github.io/images/2017-01-05-elastic/key_pair.png)
 
 As a side note, to save money ensure you power off you nodes when not in
 use. As you can see from this blog it isn't necessarily easy to set up
@@ -233,7 +225,8 @@ in a browser. You should be prompted for the username and password that
 you used above. After entering this, you should get a screen that looks
 like:
 
-![**Figure 3:** Kibana Landing Page](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana.PNG)
+![**Figure 3:** Kibana Landing
+Page](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana.png)
 
 If you run into any problems, below are several commands that I found
 helpful:
@@ -334,7 +327,7 @@ and the below Kibana dashboard has been very responsive (I usually wait
 5 seconds for queries, compared to 10 minutes with Sqlite).
 
 ![**Figure 4:** Kibana Dashboard for Twitter...Query and Visualize 20M
-Tweets](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana2.PNG)
+Tweets](https://dmbeskow.github.io/images/2017-01-05-elastic/kibana2.png)
 
 Finally, here's a couple of commands that are helpful:
 
@@ -345,4 +338,4 @@ Finally, here's a couple of commands that are helpful:
     curl -XDELETE 'http://localhost:9200/tweets_20161226/'
 
 If you have any suggestions or questions, please reach out at
-[this email address](dnbeskow@gmail.com).
+[david.m.beskow.mil@mail.mil](david.m.beskow.mil@mail.mil).
