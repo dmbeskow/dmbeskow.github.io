@@ -14,6 +14,8 @@ myself from the ground up so that I could customize the configuration to
 my needs. This tutorial is the result of hours of time on Google
 stitching together numerous blogs on the subject of ELK stacks.
 
+
+
 As the size of data in our world continues to grow, folks will
 increasingly have to deal with data that that doesn't fit into memory (a
 constraining factor for those using R/Python). While one solution is to
