@@ -5,8 +5,6 @@ categories: [R]
 tags: [aws, cloud, elk]
 ---
 
-
-
 This blog is meant to walk someone through setting up an ELK stack in
 AWS. I have recently set up and extensively used an ELK stack in AWS in
 order to query 20M+ social media records and serve them up in a Kibana
