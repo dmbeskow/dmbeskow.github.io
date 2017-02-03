@@ -25,7 +25,7 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
 
 
-* [ckan](https://dmbeskow.github.io/html/geo4.html)
+* [ckan](http://ec2-52-23-204-1.compute-1.amazonaws.com/)
 * [AWS1](http://ec2-54-210-214-151.compute-1.amazonaws.com/)
 * [AWS2](http://ec2-52-87-239-129.compute-1.amazonaws.com/)
 * [Demo](http://ec2-52-87-242-167.compute-1.amazonaws.com/)
