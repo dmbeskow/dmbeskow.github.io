@@ -23,3 +23,11 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Geospatial Lesson 2](https://dmbeskow.github.io/html/geo2.html)
 * [Geospatial Lesson 3](https://dmbeskow.github.io/html/geo3.html)
 * [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
+
+
+* [ckan](https://dmbeskow.github.io/html/geo4.html)
+* [AWS1](http://ec2-54-210-214-151.compute-1.amazonaws.com/)
+* [AWS2](http://ec2-52-87-239-129.compute-1.amazonaws.com/)
+* [Demo](http://ec2-52-87-242-167.compute-1.amazonaws.com/)
+* [Kibana](http://ec2-52-202-13-176.compute-1.amazonaws.com/)
+* [WikiSearch](http://ec2-52-87-242-167.compute-1.amazonaws.com/shiny/rstudio/geoSearchWiki/)
