@@ -25,9 +25,9 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
 
 
-* [ckan](http://ec2-52-23-204-1.compute-1.amazonaws.com/)
+* [Console](https://027516788059.signin.aws.amazon.com/console)
 * [AWS1](http://ec2-184-72-108-169.compute-1.amazonaws.com/)
 * [AWS2](http://ec2-52-87-239-129.compute-1.amazonaws.com/)
-* [Demo](http://ec2-52-203-5-163.compute-1.amazonaws.com/)
+* [Demo](http://ec2-54-175-119-249.compute-1.amazonaws.com/)
 * [Kibana](http://ec2-54-80-176-238.compute-1.amazonaws.com/)
-* [WikiSearch](http://ec2-52-203-5-163.compute-1.amazonaws.com/shiny/rstudio/geoSearchWiki/)
+* [WikiSearch](http://ec2-54-175-119-249.compute-1.amazonaws.com/shiny/rstudio/geoSearchWiki/)
