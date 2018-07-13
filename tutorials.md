@@ -34,4 +34,5 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Bothunter](https://1drv.ms/p/s!AqUHG_JJp4h7jZVZfIAYOz2UdsBEIg)
 * [TridentJoust](https://1drv.ms/p/s!AqUHG_JJp4h7jZVayJssKgt7W70VPA)
 * [WorkFlow](https://1drv.ms/p/s!AqUHG_JJp4h7jZVb4dyjEzGqQlqYpg)
-* [Random](https://1drv.ms/p/s!AqUHG_JJp4h7jZVgOQpwSzS7q1REnQ)
+* [Random](https://ec2-54-209-34-158.compute-1.amazonaws.com)
+
