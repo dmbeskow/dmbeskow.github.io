@@ -5,9 +5,6 @@ categories: [python]
 tags: [twitter,python]
 ---
 
-In this short tutorial I will briefly introduce the `twitter_col` package and introduce how to use two of its Command Line Interface (CLI) tools for streaming Twitter data.
-
-# Introduction
 
 I've had an opportunity to work on a variety of open source social media projects.  A number of these have involved Twitter Data.  Having worked extensively with Twitter Data in R, I migrated to Python in 2017.  This migration was done for several reasons.  First, I discovered that if you don't extract the raw JSON data for Twitter (which many R packages don't), then you end up dropping alot of valuable data on the floor.  Additionally, most third party applications require the full Twitter JSON payload.  Once you do decide to collect raw JSON, it makes sense to transition to Python because of the ease of working with JSON data in Python (JSON data easily transitions to a Python dictionary).  You can work with JSON data in R (usually in a list of lists), but (in my opinion) it is not as easy or straightforward.  
 
