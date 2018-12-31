@@ -50,9 +50,9 @@ I've built these CLI's to work in a virtual environment.  While all the rest of 
 
 We will create the virtual environment from the terminal in Mac or Linux or using the Windows Linux Subsystem (WSL) in Windows:
 
-~~~~~~~~
+<pre class="highlight"><code>
 virtualenv -p python3 twitter-env
-~~~~~~~~
+</code></pre>
 
 Then we activate the environment with the command
 
