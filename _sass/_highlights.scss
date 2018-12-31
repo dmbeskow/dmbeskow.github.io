@@ -6,9 +6,15 @@
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
+  margin: 0px 0 0px 0;
   overflow: scroll;
 }
+
+.highlight .highlight {
+  border: none;
+  box-shadow: none;
+}
+
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
