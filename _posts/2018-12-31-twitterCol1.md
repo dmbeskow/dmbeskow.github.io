@@ -25,7 +25,7 @@ I've found that if I don't properly document and package my code, by the time I 
 
 The meme below sums up why you should consider packaging your code for reuse:
 
-![meme1](meme1.png)
+![meme1](https://dmbeskow.github.io/images/2018-12-31-twitterCol1/meme1.png)
 
 Having built a number of packages in R, and now three packages in Python, I've found that it is fairly easy in either language.  Both allow you to write and document functions and/or data, and both can be easily staged and installed from Github or Gitlab.  Additionally, Python allow you to write command line interface tools, which I'll dive into below.
 
