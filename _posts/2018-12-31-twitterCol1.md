@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing `twitter_col` package"
+title:  "Introducing twitter_col package"
 categories: [python]
 tags: [twitter,python]
 ---
