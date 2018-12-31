@@ -50,13 +50,13 @@ I've built these CLI's to work in a virtual environment.  While all the rest of 
 
 We will create the virtual environment from the terminal in Mac or Linux or using the Windows Linux Subsystem (WSL) in Windows:
 
-
-  virtualenv -p python3 twitter-env
-
+```
+virtualenv -p python3 twitter-env
+```
 
 Then we activate the environment with the command
 
-```bash
+```
 source twitter-env/bin/activate
 ```
 
@@ -64,7 +64,7 @@ Once this is done, the packages and command line utilities we load will be conta
 
 The basic installation command is given below.  This command will install `twitter_col` and its dependencies: `pandas`, `tweepy`, `textblob`, and `progressbar2`.
 
-```bash
+```
 pip3 install --upgrade git+git://github.com/dmbeskow/twitter_col.git
 ```
 
