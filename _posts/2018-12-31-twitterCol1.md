@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Introducing `twitter_col` package"
+categories: [python]
+tags: [twitter,python]
+---
+
+In this short tutorial I will briefly introduce the `twitter_col` package and introduce how to use two of its Command Line Interface (CLI) tools for streaming Twitter data.
 
 # Introduction
 
@@ -75,9 +83,9 @@ Both of the command line interfaces require the user to provide the path to a JS
 
 ```json
 {
-  "consumer_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+  "consumer_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "consumer_secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-   "access_token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+   "access_token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
    "access_secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
  }
 
@@ -85,7 +93,7 @@ Both of the command line interfaces require the user to provide the path to a JS
 
 # Streaming based on content
 
-In this section I will introduce the `stream_content` command line interface (CLI) that facilitates easy access to the streaming API with content filtering.  This allows you to filter the Streaming API by any token (hashtag, screen name, text, etc). 
+In this section I will introduce the `stream_content` command line interface (CLI) that facilitates easy access to the streaming API with content filtering.  This allows you to filter the Streaming API by any token (hashtag, screen name, text, etc).
 
 Let's say I want to stream content during the Worldcup in regards to Germany, France, and Spain.  I could use their country hashtags with the CLI command:
 
@@ -144,7 +152,7 @@ nohup stream_content key.json -74 40 -73 41 -tag nyc > nyc_log.out &!
 ```
 
 This will immediately start the streaming process and return the terminal to the user.  All logs will be written to nyc_log.out.  
-To view all running processes, use the command 
+To view all running processes, use the command
 
 ```bash
 ps -x
