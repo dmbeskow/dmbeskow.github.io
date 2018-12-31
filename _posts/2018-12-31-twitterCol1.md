@@ -78,7 +78,7 @@ In this tutorial I will introduce the Streaming API using two Python command lin
 
 Both of the command line interfaces require the user to provide the path to a JSON file with their Twitter credentials.  Having created your Twitter credentials, place them in a json file with the format below:
 
-```json
+```
 {
   "consumer_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "consumer_secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
