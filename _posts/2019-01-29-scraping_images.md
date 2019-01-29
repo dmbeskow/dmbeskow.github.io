@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scraping Images to Create Labeled Data for Convolutional Neural Network Training"
+title:  "Scraping Images to Create Labeled Data for CNN Model"
 categories: [python]
 tags: [scraping,python]
 ---
