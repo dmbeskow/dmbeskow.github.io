@@ -1,7 +1,12 @@
+---
+layout: post
+title:  "Scraping Images to Create Labeled Data for Convolutional Neural Network Training"
+categories: [python]
+tags: [scraping,python]
+---
 
-# Scraping Images
 
-This code is a collection of code that I used for scraping images from a variety of locations (Google images, Flickr, Tumblr, Twitter, and Instagram). 
+This code is a collection of code that I used for scraping images from a variety of locations (Google images, Flickr, Tumblr, Twitter, and Instagram).
 
 I used these platforms to collect images for training a Convolutional Neural Network model.  
 
@@ -106,7 +111,7 @@ for image in values:
 
 ### Twitter
 
-This code assumes you have a basic Twitter JSON file or directory, and will 
+This code assumes you have a basic Twitter JSON file or directory, and will
 get all links and then images share in these tweets.  
 
 This code will skip Tweets that Twitter flags as *sensitive*.  
@@ -116,7 +121,7 @@ This code will skip Tweets that Twitter flags as *sensitive*.
 
 import json
 import io, gzip, os
-import urllib.request 
+import urllib.request
 import random
 from random import shuffle
 import codecs
@@ -141,7 +146,7 @@ for file in files:
                         if pic['type'] == 'photo':
                             u = pic['media_url']
                             links.append((u,tweet['id_str']))
-print('number of links',len(links)) 
+print('number of links',len(links))
 ```
 
 Now we will download these files in parallel using all of the cores on your machine.  Files are saved with the Twitter ID number in their file name.
@@ -206,10 +211,10 @@ photos = flickr.walk(text=keyword,
 urls = []
 for i, photo in enumerate(photos):
     print (i)
-    
+
     url = photo.get('url_c')
     urls.append(url)
-    
+
     # get 1000 urls
     if i > 1000:
         break
@@ -231,7 +236,7 @@ for file in urls:
 
 For Tumblr, I used an R package that I developed in the past.  
 
-If interested, reach out to see if I can share.  For those with a CAC card, you can access it on DSCOE GitLab.  
+If interested, reach out to see if I can share.  
 
 ### Instagram
 
