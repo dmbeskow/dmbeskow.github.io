@@ -7,10 +7,7 @@ tags: [scraping,python]
 
 
 This code is a collection of code that I used for scraping images from a variety of locations (Google images, Flickr, Tumblr, Twitter, and Instagram).
-
-I used these platforms to collect images for training a Convolutional Neural Network model.  
-
-In my case I was building a CNN to detect internet memes, and used the platforms above to get ~20K examples of memes (and ~20K non-meme images).
+I used these platforms to collect images for training a Convolutional Neural Network model.  In my case I was building a CNN to detect internet memes, and used the platforms above to get ~20K examples of memes (and ~20K non-meme images).
 
 So let's dive in and walk through how to scrape images on each of these platforms:
 
