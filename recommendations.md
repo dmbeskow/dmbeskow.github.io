@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recommendations
-permalink: /Recommendations/
+permalink: /recommendations/
 ---
 
 Informative Papers and Articles:
