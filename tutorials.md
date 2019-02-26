@@ -25,14 +25,5 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
 
 
-* [Console](https://027516788059.signin.aws.amazon.com/console)
-* [AWS1](http://ec2-184-72-108-169.compute-1.amazonaws.com/)
-* [AWS2](http://ec2-52-87-239-129.compute-1.amazonaws.com/)
-* [Demo](http://ec2-54-175-119-249.compute-1.amazonaws.com/)
-* [Kibana](http://ec2-54-80-176-238.compute-1.amazonaws.com/)
-* [WikiSearch](http://ec2-54-175-119-249.compute-1.amazonaws.com/shiny/rstudio/geoSearchWiki/)
-* [Bothunter](https://1drv.ms/p/s!AqUHG_JJp4h7jZVZfIAYOz2UdsBEIg)
-* [TridentJoust](https://1drv.ms/p/s!AqUHG_JJp4h7jZVayJssKgt7W70VPA)
-* [WorkFlow](https://1drv.ms/p/s!AqUHG_JJp4h7jZVb4dyjEzGqQlqYpg)
-* [Random](https://ec2-54-209-34-158.compute-1.amazonaws.com)
-
+* [link1](https://027516788059.signin.aws.amazon.com/console)
+* [link2](https://027516788059.signin.aws.amazon.com/console)
