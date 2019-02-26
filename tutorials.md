@@ -24,6 +24,20 @@ I've used the following tutorials to teach students how to conduct basic geospat
 * [Geospatial Lesson 3](https://dmbeskow.github.io/html/geo3.html)
 * [Geospatial Lesson 4](https://dmbeskow.github.io/html/geo4.html)
 
+Informative Papers and Articles:
+-----------------------------------
+
+1. [Ethical AI and 'misbehaving' algorithms](https://www.rand.org/content/dam/rand/pubs/research_reports/RR1700/RR1744/RAND_RR1744.pdf)
+2. [The Follower Factory](https://www.nytimes.com/interactive/2018/01/27/technology/social-media-bots.html)
+
+Helpful Blogs:
+---------------
+
+1. [Python and Machine Learning](https://chrisalbon.com/)
+2. [Creating Websites in R](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
+
+Links:
+---------
 
 * [link1](https://027516788059.signin.aws.amazon.com/console)
 * [link2](https://027516788059.signin.aws.amazon.com/console)
