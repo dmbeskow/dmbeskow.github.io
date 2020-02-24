@@ -14,6 +14,8 @@ I host most of my research at the [http://data-analytics.net/](http://data-analy
 
 **Beskow, David M., and Kathleen M. Carley.** *Bot conversations are different: leveraging network metrics for bot detection in Twitter.* 2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM). IEEE, 2018. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8508322)
 
+**Beskow, David M., and Kathleen M. Carley.** *Agent Based Simulation of Bot Disinformation Maneuvers in Twitter* Proceedings of the 2019 Winter Simulation Conference. IEEE, 2019. [link](https://www.informs-sim.org/wsc19papers/235.pdf)
+
 **Beskow, David M., and Kathleen M. Carley.** *The Flows of Democracy: Visual Analysis of the Rise and Fall of Political Parties.* International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction and Behavior Representation in Modeling and Simulation. Springer, Cham, 2019. [link](http://sbp-brims.org/2019/proceedings/papers/working_papers/Beskow.pdf)
 
 **Babcock, Matthew, David M. Beskow, and Kathleen M. Carley.** *Different Faces of False: The Spread and Curtailment of False Information in the Black Panther Twitter Discussion.* Journal of Data and Information Quality (JDIQ) 11.4 (2019): 1-15. [link](https://dl.acm.org/doi/10.1145/3339468)

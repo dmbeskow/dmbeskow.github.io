@@ -38,6 +38,3 @@ Helpful Blogs:
 
 Links:
 ---------
-
-* [link1](https://027516788059.signin.aws.amazon.com/console)
-* [link2](https://027516788059.signin.aws.amazon.com/console)
