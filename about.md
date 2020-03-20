@@ -8,6 +8,10 @@ I host most of my research at the [http://data-analytics.net/](http://data-analy
 
 ### Publications
 
+**Magelinski, Thomas, David Beskow, and Kathleen M. Carley.** *Graph-Hist: Graph Classification from Latent Feature Histograms With Application to Bot Detection*  Association for the Advancement of Artificial Intelligence Conference (2020). [link](https://arxiv.org/pdf/1910.01180.pdf)
+
+**Beskow, David M., and Kathleen M. Carley.**  *Investing in Social Cybersecurity.** Naval Science and Technology Future Force.  Vol 6. No 2. (2020) [link](https://futureforce.navylive.dodlive.mil/files/2020/03/FF_0320_Vol6No2_FINAL_lr.pdf)
+
 **Beskow, David M., Sumeet Kumar, and Kathleen M. Carley.** *The evolution of political memes: Detecting and characterizing internet memes with multi-modal deep learning.* Information Processing & Management 57.2 (2020): 102170. [link](https://www.sciencedirect.com/science/article/pii/S0306457319307988)
 
 **Beskow, David M., and Kathleen M. Carley.** *Social cybersecurity: an emerging national security requirement.* Military Review 99.2 (2019): 117. [link](https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MA-2019/Beskow-Carley-Social-Cyber.pdf)
@@ -39,7 +43,3 @@ I host most of my research at the [http://data-analytics.net/](http://data-analy
 **David Beskow and Daniel McCarthy**, *Installation Services Requirements Determination Analysis: Electrical Services* (nominated for MORS Bartchi Award), 80th MORS Symposium Working Group 25
 
 **David Beskow and Lynn Whitaker**, *Spatial and Temporal Analysis of Tactical Integrated Ground Reporting*, Accepted for presentation at the Military Operations Research Society Stephen A. Tisdale Competition, (Monterey, California), May 2011
-
-### More Information
-
-Under Construction
