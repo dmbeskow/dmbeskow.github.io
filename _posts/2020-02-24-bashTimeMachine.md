@@ -11,8 +11,10 @@ The secret sauce to a good backup solution is to make incremental snapshots of a
 
 In the code below, I illustrate how to do this with a very simple bash script.  This script can be deployed in the terminal on Mac or Ubuntu or in Windows Subsystem for Linux (WSL).  I recommend only using this script as a backup solution if you're fairly knowledgeable about bash scripting and understand hard links.  
 
-  #!/bin/sh
-  date=`date "+%Y%m%d%H%M%S"`
-  rsync -aPW --link-dest=/backup_drive/Backups/current --exclude=".*/"  --exclude-from='exclude_me.txt'  /directory/to/backup  /backup_drive/Backups/back-$date
-  rm -f /backup_drive/Backups/current
-  ln -s back-$date /backup_drive/Backups/current
+```bash
+#!/bin/sh
+date=`date "+%Y%m%d%H%M%S"`
+rsync -aPW --link-dest=/backup_drive/Backups/current --exclude=".*/"  --exclude-from='exclude_me.txt'  /directory/to/backup  /backup_drive/Backups/back-$date
+rm -f /backup_drive/Backups/current
+ln -s back-$date /backup_drive/Backups/current
+```
