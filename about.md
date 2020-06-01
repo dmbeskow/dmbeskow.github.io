@@ -6,6 +6,10 @@ permalink: /about/
 
 I host most of my research at the [http://data-analytics.net/](http://data-analytics.net), but use this Github site to share code, particularly regarding various R Projects that I'm working on.  I also maintain an informal blog on this site to discuss various musings and experiments that I've attempted with code.
 
+### PhD Thesis
+
+**David Beskow.** *Finding and Characterizing Information Warfare Operations* Carnegie Mellon University School of Computer Science Thesis.  Advised by Kathleen M. Carley.  (2020)[link](https://kilthub.cmu.edu/articles/Finding_and_Characterizing_Information_Warfare_Campaigns/12303089)
+
 ### Publications
 
 **Magelinski, Thomas, David Beskow, and Kathleen M. Carley.** *Graph-Hist: Graph Classification from Latent Feature Histograms With Application to Bot Detection*  Association for the Advancement of Artificial Intelligence Conference (2020). [link](https://arxiv.org/pdf/1910.01180.pdf)
